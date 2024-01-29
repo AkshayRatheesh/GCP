@@ -1,0 +1,13 @@
+{
+    "name": "compute-engine-instance-start-stoper",
+    "version": "1.0.0",
+    "description": "Node.js Scripts for Scheduling Compute Engine VM (GCE) Start & Stop Operations with Cloud Functions",
+    "main": "index.js",
+    "dependencies": {
+      "@google-cloud/compute": "^2.5.0"
+    },
+    "engines": {
+      "node": "18"
+    }
+  }
+  
