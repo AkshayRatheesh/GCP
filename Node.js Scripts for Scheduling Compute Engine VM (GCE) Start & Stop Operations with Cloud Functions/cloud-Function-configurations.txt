@@ -1,0 +1,17 @@
+
+
+Cloud Function Environment: 1st generation
+Name: Any
+Region: Any
+Trigger Type: HTTP
+Memory Allocated: 128 MB
+Timeout: 180 seconds
+Min Number of Instances: 0
+Max Number Of Instances: 2
+
+Runtime: Node.js 20
+Entry Point: stopGCPInstance/startGCPInstance
+
+Service Account Role: Compute Admin
+Service Account IAM Condition: resource.name.startsWith("projects/akshay-00007/zones/us-west1-b/instances/akshai-vm-stop")
+
