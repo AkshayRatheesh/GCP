@@ -13,6 +13,6 @@ Node.js Scripts for Scheduling Compute Engine VM (GCP) Start & Stop Operations w
 
     `GCP` `GCE` `Cloud-Function` `Compute Engine VM` `Cloud-Scheduler` `NODEJS`
 
-3. [**`3` Google Cloud Storage Operations with Service Account Authentication.py UPLOAD, LIST, DELETE**](https://github.com/AkshayRatheesh/GCP/blob/main/Google%20Cloud%20Storage%20Operations%20with%20Service%20Account%20Authentication.py) 
+3. [**`3` Google Cloud Storage Operations with Service Account Authentication.py `UPLOAD`, `LIST`, `DELETE`**](https://github.com/AkshayRatheesh/GCP/blob/main/Google%20Cloud%20Storage%20Operations%20with%20Service%20Account%20Authentication.py) 
 
     `GCP` `GCS` `Cloud-Storage` `Cloud-Bucket` `Python`
