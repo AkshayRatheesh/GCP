@@ -1,0 +1,12 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: [ 'functions', 'deploy', 'FUNCTION-NAME', '--no-gen2', '--region=asia-south1', '--runtime=nodejs20', '--source=https://source.developers.google.com/projects/PROJECTID/repos/REPO-NAME', '--entry-point=FUNCTION-ENTRYPOINT', '--trigger-http']
+
+
+## Samaple Values
+
+# FUNCTION-NAME = function-1
+# --source=https://source.developers.google.com/projects/akshay1243543/repos/function-codes
+# --entry-point=hello-world
